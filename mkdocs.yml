@@ -1,0 +1,20 @@
+
+# mkdocs.yml
+site_name: PrjDataSci
+site_url: FILL OUT
+repo_url: https://github.com/Dr-Adeel/BPM_DSci.git
+nav:
+  - Home: index.md
+  - workflows:
+    - main: PrjDataSci/main.md
+  - PrjDataSci:
+    - plotter: PrjDataSci/plotter.md
+    - data: PrjDataSci/data.md
+    - evaluate: PrjDataSci/evaluate.md
+    - predict: PrjDataSci/predict.md
+    - train: PrjDataSci/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
